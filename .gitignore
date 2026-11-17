@@ -1,36 +1,29 @@
 # ==============================
-# IntelliJ IDEA
+# Python & Virtual Environments
 # ==============================
-.idea/
-*.iml
-*.iws
-*.ipr
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
 
 # ==============================
-# Maven
+# SQLite & Database
 # ==============================
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
+*.db
+*.sqlite
+*.sqlite3
+inventory.db
+data/
 
 # ==============================
-# Java
+# Runtime & Export files
 # ==============================
-*.class
+receipts_export/
 *.log
-hs_err_pid*
-replay_pid*
-
-# ==============================
-# JavaFX / Build Artifacts
-# ==============================
-out/
-build/
-dist/
 
 # ==============================
 # Local Configuration / Secrets
@@ -40,21 +33,13 @@ dist/
 .env
 .env.*
 
-
 # ==============================
-# Operating System
+# Operating System & Editors
 # ==============================
 .DS_Store
-.DS_Store?
 Thumbs.db
-Desktop.ini
-
-# ==============================
-# Temporary / Backup Files
-# ==============================
-*.tmp
-*.temp
-*.bak
+.vscode/
+.idea/
 *.swp
 *.swo
 *~
